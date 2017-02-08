@@ -1,4 +1,4 @@
-# dakotaleroy.github.io
+# README
 
 # Correctly Implemented
 I have, to the best of of my knowledge, implemented the bio.html, resume.html, and index.html correctly.
