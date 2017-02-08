@@ -1,0 +1,28 @@
+h1 {
+    text-indent: 575px;
+    font-size: 64px;
+}
+body {
+    background-image: url("web.jpg");
+  	color: #6d6d6d;
+    font-family: "Avenir";
+}
+
+p {
+   text-indent: 175px;
+   font-size: 18px;
+   margin: 0;
+}
+
+.pic {
+    text-indent: 275px;
+    float: left;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    margin-left: 4.7cm;
+    text-decoration: none;
+    color: #6d6d6d;
+}

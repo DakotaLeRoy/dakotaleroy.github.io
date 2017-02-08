@@ -1,0 +1,33 @@
+h1 {
+      text-align: center;
+}
+h3 {
+      text-align: center;
+}
+
+body {
+    background: white;
+    background: -webkit-linear-gradient(red, powderblue);
+    background: -o-linear-gradient(white, powderblue);
+    background: -moz-linear-gradient(white, powderblue);
+    background: linear-gradient(white, powderblue);
+  	color: #6d6d6d;
+    font-family: "Avenir";
+}
+
+p {
+   text-indent: 400px;
+   margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    margin-left: 4.7cm;
+    text-decoration: none;
+    color: #6d6d6d;
+}
