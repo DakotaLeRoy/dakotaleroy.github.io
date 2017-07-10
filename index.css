@@ -1,28 +1,32 @@
+body {
+    color: #6d6d6d;
+    font-family: "Avenir";
+    background: url("web2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: relative;
+    cursor: crosshair;
+}
+
 h1 {
-    text-indent: 575px;
+    padding-left: 200px;
+    padding-top: 150px;
     font-size: 64px;
 }
-body {
-    background-image: url("web.jpg");
-  	color: #6d6d6d;
-    font-family: "Avenir";
+
+.images {
+  padding-left: 150px;
+}
+
+img {
+  width: 400px;
+  height: 620px;
+  padding-left: 5%; 
+  padding-bottom: 10vh;
 }
 
 p {
-   text-indent: 175px;
+   text-indent: 200px;
    font-size: 18px;
    margin: 0;
-}
-
-.pic {
-    text-indent: 275px;
-    float: left;
-}
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    margin-left: 4.7cm;
-    text-decoration: none;
-    color: #6d6d6d;
 }
