@@ -20,8 +20,13 @@ h1 {
 }
 
 img {
-  width: 400px;
-  height: 620px;
+  width: 600px;
+  height: 800px;
   padding-bottom: 10vh;
   margin: 40px;
+}
+
+p {
+    padding-left: 30vh;
+    padding-right: 30vh;
 }
