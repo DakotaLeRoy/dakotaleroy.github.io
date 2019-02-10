@@ -24,24 +24,14 @@
 	<!-- The Modal -->
 		<div id="modal" class="modal">
 		  <span class="close">&times;</span>
-		  <img class="modal-content" id="resume">
 		  <div id="caption"></div>
 		</div>
 
 		<script>
 			var modal = document.getElementById('modal');
-			var modalImg = document.getElementById("resume");
-			var resume = document.getElementById('resumeButton');
-			var resumeCaptionText = document.getElementById("caption");
 			var portfolio = document.getElementById('portfolioButton');
 			var portfolioCaptionText = document.getElementById("portfolioContent");
 
-			resume.onclick = function(){
-
-			    modal.style.display = "block";
-			    modalImg.src = "Dakota LeRoy UX.pdf";
-			    resumeCaptionText.innerHTML = "";
-			}
 			portfolio.onclick = function(){
 			    document.getElementById("portfolioButton").onclick = function () {
 			    	location.href = "portfolio.html";
