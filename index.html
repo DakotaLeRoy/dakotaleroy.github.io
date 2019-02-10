@@ -10,8 +10,7 @@
 
   	<h1 class="animated fadeIn">Dakota LeRoy</h1>
 	<div class="buttons-coll animated fadeIn">
-		<button id="resumeButton" class="custom-btn btn-4"><span>Resume</span></button>
-		<button id="portfolioButton" class="custom-btn btn-4"><span>Portfolio</span></button>
+		<a href="https://dakotaleroy.github.io/portfolio" class="custom-btn btn-4">Portfolio</a>
 		<p class="animated fadeIn" align="left">I am a student at Tufts University pursuing a B.S. in Computer Science.
     I have experience working as a UX intern at Cisco and a Backend Engineering Intern at Medidata Solutions. I am passionate about UI/UX and design and am currently pursuing full time opportunities in the field after my graduation in May 2019.</p>
 		<img src="me.jpeg" class="headshot">
@@ -27,25 +26,6 @@
 		  <div id="caption"></div>
 		</div>
 
-		<script>Arts
-			var modal = document.getElementById('modal');
-			var portfolio = document.getElementById('portfolioButton');
-			var portfolioCaptionText = document.getElementById("portfolioContent");
-
-			portfolio.onclick = function(){
-			    document.getElementById("portfolioButton").onclick = function () {
-			    	location.href = "portfolio.html";
-				};
-			}
-
-			// Get the <span> element that closes the modal
-			var span = document.getElementsByClassName("close")[0];
-
-			// When the user clicks on <span> (x), close the modal
-			span.onclick = function() { 
-			    modal.style.display = "none";
-			}
-		</script>
 
 </body>
 </html>
