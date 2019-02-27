@@ -1,23 +1,211 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dakota</title>
-	<link href="index.css" rel="stylesheet"/>
-	<link rel="stylesheet" href="animate.min.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dakota</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <div class="intro-text">
+          	</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  	<h1 class="animated fadeIn">Dakota LeRoy</h1>
-	<div class="buttons-coll animated fadeIn">
-		<button onclick="location.href='portfolio.html'" class="custom-btn btn-5"><span>Portfolio</span></button>
-		<button onclick="location.href='https://www.linkedin.com/in/dakota-leroy-725bb5126/'" class="custom-btn btn-5"><span>LinkedIn</span></button>
-
-		<p class="animated fadeIn" align="left">I am a student at Tufts University pursuing a B.S. in Computer Science.
-    I have experience working as a UX intern at Cisco and a Backend Engineering Intern at Medidata Solutions. I am passionate about UI/UX and design and am currently pursuing full time opportunities in the field after my graduation in May 2019.</p>
-		<img src="me.jpeg" class="headshot">
-		
-	</div>
-
+  <div>
+    
+    <div class="buttons">
+    <a href="#portfolio" class="btn btn-custom btn-lg page-scroll">Portfolio</a>
+    <a href="#contact" class="btn btn-custom btn-lg page-scroll">About Me</a>
+    <a href="https://www.linkedin.com/in/dakota-leroy-725bb5126/" class="btn btn-custom btn-lg page-scroll">LinkedIn</a>
+  </div>
+  </div>
+</header>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title">
+      <h2>Portfolio</h2>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="bodies.pdf" title="Bodies" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Bodies</h4>
+                    <h4>I created graphic designs for an exhibition entitled "Nasty Woman."</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/bodies.pdf" class="img-responsive" alt="Bodies"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 adipiscing">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/Breakfast Table.pdf" title="Breakfast Table" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Breakfast Table</h4>
+                    <h4>Given a dataset, I designed a table for breakfast food recoomentions focused for people recovering from eating disorders.</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/Breakfast Table.pdf" class="img-responsive" alt="Breakfast Table"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/CDO.pdf" title="Cisco Defence Orchestrator" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Cisco Defence Orchestrator</h4>
+                    <h4>Some highlights of the UI/UX work I did while interning for Cisco.</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/CDO.pdf" class="img-responsive" alt="Cisco Defence Orchestrator"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/DroneFleet.pdf" title="Drone Fleet" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Drone Fleet</h4>
+                    <h4>I designed the UI and created a storyboard for a mobile drone-control app.</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/DroneFleet.pdf" class="img-responsive" alt="Drone Fleet"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 adipiscing">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://dakotaleroy.github.io/TEMSvsDrunkCollegeStudent/#" title="TEMS vs College Student" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>TEMS vs College Student</h4>
+                    <h4>I was in charge or the UI of this 2D game and designed its website.</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/tems1.png" class="img-responsive" alt="TEMS vs College Student"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 dolor">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="http://navgator.herokuapp.com" title="NavGator" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>NavGator</h4>
+                    <h4>I worked as a front end engineer and UI/UX designer for this direction-based game.</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/navgator1.png" class="img-responsive" alt="NavGator"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="col-md-6">
+      <div class="section-title">
+        <div class="row"> <img src="img/about.jpg" class="img-responsive pull-left" alt="">
+          <p>I am a student at Tufts University pursuing a B.S. in Computer Science.I am passionate about UI/UX research and design, and am currently seeking full time opportunities in the field after my graduation in May of 2019.</p>
+          <p>My experience ranges from working as a UX intern at Cisco to a Backend Engineering internship at Medidata Solutions. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="section-title">
+        <p>For inquiries please contact me by email at <strong>dakota.leroy@tufts.edu</strong> or fill out the form below.</p>
+      </div>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container">
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
